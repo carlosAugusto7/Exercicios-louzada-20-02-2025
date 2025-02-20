@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class SomaDoisNumeros {
+public class AreaCirculo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numero1 = scanner.nextInt();
-        int numero2 = scanner.nextInt();
-        System.out.println(numero1 + numero2);
+        double raio = scanner.nextDouble();
+        double area = 3.14159 * raio * raio;
+        System.out.println(area);
         scanner.close();
     }
 }
